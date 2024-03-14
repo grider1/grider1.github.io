@@ -9,11 +9,13 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center; /* Center header text */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; /* Center navigation links */
 }
 
 nav ul li {
@@ -24,8 +26,22 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 20px; /* Increase font size for navigation links */
 }
 
 main {
     padding: 20px;
+    text-align: center; /* Center main content */
+}
+
+h1 {
+    font-size: 36px; /* Increase font size for main headings */
+}
+
+h2 {
+    font-size: 24px; /* Increase font size for subheadings */
+}
+
+p {
+    font-size: 18px; /* Increase font size for paragraphs */
 }
